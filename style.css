@@ -137,7 +137,7 @@ p {
     border-radius: 100px;
 }
 
-/* destination style rules */
+/* destination moon style rules */
 
 .destination {
     max-width: 100%;
@@ -164,6 +164,7 @@ p {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 80px;
+    letter-spacing: 3px;
 }
 
 .destionation-location h2 span {
@@ -238,4 +239,62 @@ p {
     font-family: 'Bellefair', serif;
     font-size: 28px;
     font-weight: 500;
+}
+
+/* crew style rules */
+.crew {
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(images/crew/background-crew-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.crew-description {
+    width: 100%;
+    height: auto;
+    padding: 0% 12%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.crew-nav {
+    margin-bottom: 50px;
+}
+
+.crew-description-text h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 100px;
+    letter-spacing: 3px;
+}
+
+.crew-description-text h2 span {
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.crew-description-text h3 {
+    opacity: 0.5;
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.crew-description-text h1 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.crew-description-text p {
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.crew-description-image img {
+    width: 65%;
+    margin-bottom: 0;
 }
