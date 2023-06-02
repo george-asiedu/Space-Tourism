@@ -22,6 +22,7 @@ body {
 }
 
 a {
+    font-family: 'Barlow Condensed', sans-serif; 
     text-decoration: none;
     text-transform: uppercase;
     color: var(--white);
@@ -90,7 +91,6 @@ p {
     display: block;
     text-align: center;
     padding: 10px 20px;
-    font-family: 'Barlow Condensed', sans-serif; 
 }
 
 .home-nav-items a:hover {
@@ -98,7 +98,7 @@ p {
     opacity: 0.8;
 }
 
-.home-nav-items .active {
+.active {
     border-bottom: .5px solid #fff;
     opacity: 0.8;
 }
@@ -135,4 +135,107 @@ p {
     text-transform: uppercase;
     padding: 15%;
     border-radius: 100px;
+}
+
+/* destination style rules */
+
+.destination {
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(images/destination/background-destination-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.destination-nav {
+    margin-bottom: 50px;
+}
+
+.destination-description {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 0% 8%;
+}
+
+.destionation-location h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.destionation-location h2 span {
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.destionation-location img {
+    width: 55%;
+    margin-left: 10%;
+}
+
+.destination-links {
+    margin-top: 70px;
+}
+
+.destination-links-nav {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.destination-links-nav a {
+    float: left;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    padding: 0px 12px;
+}
+
+.destination-links-nav a:first-child {
+    padding-left: 0px;
+}
+
+.destination-links-nav a:hover {
+    border-bottom: .5px solid #fff;
+    opacity: 0.8;
+}
+
+.destination-text h1 {
+    font-size: 75px;
+    font-weight: 400;
+}
+
+.destination-text p {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.destination-text hr {
+    width: 500px;
+    background: var(--white);
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    margin-bottom: 30px;
+}
+
+.destination-distance {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    align-items: center;
+}
+
+.destination-distance span h3 {
+    font-weight: 400;
+    opacity: 0.7;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.destination-distance span p {
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    font-weight: 500;
 }
